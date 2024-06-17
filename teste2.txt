@@ -1,3 +1,1 @@
-Aqui vai uma mensagem.
-Outra linha
-Finalizei o  texto.
+Aqui vai uma mensagem.Outra linhaFinalizei o  texto.

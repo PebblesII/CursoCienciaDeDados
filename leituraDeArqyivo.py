@@ -10,11 +10,27 @@ with open('arquivoteste.txt', 'w') as arquivo:
 
 arquivo = open('teste2.txt', 'w')
 arquivo.write(texto)
-arquivo.write("\nOutra linha\n")
+arquivo.write("Outra linha")
 arquivo.write("Finalizei o  texto.")
 arquivo.close()
 
+with open('arquivo.txt', 'r') as arquivo:
+    for linha in arquivo:
+        print(linha)
 
-        
+conteudo = open('arquivoteste.txt', 'r')
+print(conteudo.read())
+conteudo.close()
+
+lista = []
+with open('arquivo.txt', 'r') as arquivo:
+    linhas = arquivo.readlines()
+    print(linhas)
+    for linha in linhas:
+        lista.append(linha)
+
+for linha in lista:
+    print(linha)
+
   
     
