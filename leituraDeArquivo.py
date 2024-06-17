@@ -31,6 +31,7 @@ with open('arquivo.txt', 'r') as arquivo:
 
 for linha in lista:
     print(linha)
+    
 
   
     
