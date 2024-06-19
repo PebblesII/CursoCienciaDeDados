@@ -1,12 +1,5 @@
-# Semana 1 - A4
-# INTRODUÇÃO À LINGUAGEM PYTHON
-# Fundamentos da linguagem Python
-# PDF 4 - https://aulas-p-epp-cdn.azureedge.net/aulas/[DADOS]C3U1S1A4.pdf
-# Objetivo da Aula: Entender nomes de variáveis e fazer atribuição
-# Professor Edson Luiz Parisotto - PAEET E.E. Ângelo Mendes de Almeida
-# https://www.parisotto.net - edson@parisotto.net - https://github.com/Parisotto
+# VARIÁVEIS E ATRIBUIÇÃO:
 
-# 1) VARIÁVEIS E ATRIBUIÇÃO:
 # Em programação, variáveis são utilizadas para armazenar valores e para dar nome a uma área de 
 # memória do computador onde armazenamos dados.
 
@@ -16,7 +9,7 @@ print(a + b)    # a função print(a + b) exibe o resultado da soma do conteúdo
                 # variável a com o conteúdo da variável b.
                 # No terminal, a função print() realiza a exibição na tela da adição de a + b: 3
 
-# 2) OUTROS EXEMPLOS:
+# OUTROS EXEMPLOS:
 
 variavel = 20
 a = 30
