@@ -1,6 +1,9 @@
 # lista
+# lista = [valor1, valor2, ...]
+# lista = list(valor1, valor2, ...)
 
-listaVazia = []
+listaVazia = [] # cria lista vazia
+
 listaComElementos = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 listaComElementosMista = [7, "Pyton", 3.14159, True, 'c']
 
@@ -41,3 +44,53 @@ while not encontrado:
         procurar = int(input("Digite um número: "))
 
 print(f"O número {procurar} foi encontrado na lista.")
+
+# Compreensão de listas (List Comprehension)
+# nova_lista = [expressão for elemento in lista_original if condição]
+
+print()
+valores = [valor for valor in listaComElementos if valor > 3]
+print(valores)
+soma = sum(valores)
+print(soma)
+
+print()
+quadrados = [x**2 for x in range(1, 6)]
+print(quadrados)
+
+# OU
+print()
+quadrados = []
+for x in range(1, 6):
+    quadrados.append(x**2)
+print(quadrados)
+
+print()
+pares = [x for x in range(10) if x % 2 == 0]
+print(pares)
+
+print()
+palavras = ["Curso", "Ciência", "de", "Dados"]
+maiusculas = [palavra.upper() for palavra in palavras ]
+print(maiusculas)
+
+# OU
+print()
+maiusculas = []
+for palavra in palavras:
+    maiusculas.append(palavra.upper())
+print(maiusculas)
+
+# Expressões Complexas
+print()
+pares_soma = [(x, y, x + y) for x in range(2) for y in range(2,4) if (x + y) % 2 == 0]
+print(pares_soma)
+
+print()
+pares_soma = []
+for x in range(2):
+    for y in range(2, 4):
+        if (x + y) % 2 == 0:
+            pares_soma.append((x, y, x + y))
+print(pares_soma)
+

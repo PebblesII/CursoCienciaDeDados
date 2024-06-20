@@ -45,8 +45,3 @@ print(f"Tabuada do {tabuada}")
 for multiplicador in range(1,11):
     print(f"{tabuada} x {multiplicador} = {tabuada*multiplicador}")
     
-# ENUMERATE:
-
-for indice, country in enumerate(lista):
-    print(f"{indice} - {country}")
-
